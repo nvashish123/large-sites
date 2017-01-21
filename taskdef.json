@@ -1,9 +1,9 @@
 {
-    "family": "large-site",
+    "family": "large-site-wp",
     "containerDefinitions": [
         {
             "image": "%REPOSITORY_URI%:v_%BUILD_NUMBER%",
-            "name": "large-site",
+            "name": "large-site-wp",
             "cpu": 10,
             "memory": 256,
             "essential": true,
