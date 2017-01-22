@@ -1,9 +1,9 @@
 {
-    "family": "large-site",
+    "family": "large-octant",
     "containerDefinitions": [
         {
             "image": "%REPOSITORY_URI%:v_%BUILD_NUMBER%",
-            "name": "large-site",
+            "name": "large-octant",
             "cpu": 10,
             "memory": 256,
             "essential": true,
